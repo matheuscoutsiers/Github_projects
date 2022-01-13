@@ -1,11 +1,11 @@
 #include <iostream>
+using std::cout;
+using std::endl;
 
 int main()
 {
     int x; 
-    std::cout << "Type a number: "; // Type a number and press enter
-    std::cin >> x; // Get user input from the keyboard
-    std::cout << "Your number is: " << x; // Display the input value
-
-    return;
+    cout << "Hello World!" << endl; 
+    std::cin.get();;
+    return 0;
 }
